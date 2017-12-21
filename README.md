@@ -4,6 +4,7 @@
 >This web app is called "twimgur" which is using twitter and imgur APIs to search with a given key. User will get three embedded twitter post and three imgur posts. The framework is based on the MVC-CGI api.
 
 ## USAGE
+check https://github.com/jintrone/Python-MvcCgi
 ```bash
 python3 -m mvc.server controller.py
 ```
