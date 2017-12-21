@@ -1,0 +1,23 @@
+<ul>
+<li class="twitter-color">t</li>
+<li class="twitter-color">w</li>
+<li class="imgur-color">i</li>
+<li class="imgur-color">m</li>
+<li class="imgur-color">g</li>
+<li class="imgur-color">u</li>
+<li class="imgur-color">r</li>
+</ul>
+
+<form id="search-bar" method="POST" action="/twimgur.html">
+	<button id="search-btn" class="btn-green" type="submit">Search</button>
+	<input id="input-bar" type="text" name="searchkey" value="" placeholder="Type Whatever you want" /></br>
+</form>
+
+<div id="favorite">
+	<p id="favo-title">FAVORITES [TOP3]</p>
+	<form method="POST" action="/twimgur.html">
+		<button id="f1" type="submit" name="fav1" value={favv1}>{favtxt1}</button>
+		<button id="f2" type="submit" name="fav2" value={favv2}>{favtxt2}</button>
+		<button id="f3" type="submit" name="fav3" value={favv3}>{favtxt3}</button>
+	</form>
+</div>

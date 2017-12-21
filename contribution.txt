@@ -1,0 +1,58 @@
+
+DESCRIPTION:
+	This web app is called "twimgur" which is using twitter and imgur APIs to search with a given key. User will get three embedded twitter post and three imgur posts. The framework is based on the MVC-CGI api.
+
+
+TEAMMATES:
+	Wei Jiang
+	Zhiqi Fu
+	Shun Ran
+
+
+ACHEIVEMENTS:
+	(1) "Your project must use the MvcCgi api I have provided"
+		- POST and GET methods work
+		- Avoid redundent code. Try to reuse VIEW and MODEL in controller as much as we can.
+		  (eg. We only "{content}" in default page instead of loading all html over again)
+
+	(2) "It must accept input from the user"
+		- Prompt user for searching keys
+		- Enable saving favorites to database (session.json) for users.
+
+	(3) "It must store some data and use the stored data ..."
+		- Display the lastest three search keys in favorites.
+		- Clicking the tag in favorites will retrieve data from database.
+
+	(4) "It must call an external API or scrape another web page."
+		- python-twitter
+		- imgurpython
+
+
+DIFFICULTIES:
+	(1) The Imgur API we are using does not support the embedded api. So we did some reserch on how the Imgur embedded html codes work and then we collect lots of data and infomation we need to make the embedded codes work by our own.
+
+	(2) It was our first time to do MVC/CGI project. We spent lots of time figuring out how MVC works. We did a lot of researches of the concepts and examples of MVC.
+
+	(3) We tried to write the code as clean as as possible. So we deleted lots of redundant codes and spent a lot of time refractoring the codes.
+
+
+CONTRIBUTION:
+	Wei Jiang:
+	POST method and the API implementation.
+
+	Zhiqi Fu:
+	MVC view frontend: search and result display GUI. 
+
+	Shun Ran:
+	GET method and implement "favorite" functionality in database.
+
+
+Limitation:
+	(1) Can only show up 3 saved data in "favorite" section
+	(2) User can not delete the data in database
+
+
+COMMENTS:
+	From this project, we learned how MVC and Cgi work, how to write custom POST and GET method/request on http server in python and how to manipulate the database.
+
+	

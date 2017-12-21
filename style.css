@@ -1,0 +1,123 @@
+
+/*common*/
+body {
+  background: #5b5b5b;
+  padding: 20px;
+  font-family: 'Freckle Face', cursive;
+}
+
+button {
+    border-radius: 12px;
+	height:55px;
+    padding:0 10px;
+    font-size: 24px;
+    font-family: 'Freckle Face', cursive;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    cursor: pointer;
+}
+
+.btn-green {
+    margin:20px;
+	background: #1ECD97;
+	color: white;
+	border-color: #1ECD97;
+}
+
+.btn-blue {
+    margin:20px;
+	background: #03b9f3;
+	color: white;
+	border-color: #03b9f3;
+}
+
+
+/*search page*/
+ul {
+	margin: 30px 30px;
+	text-align: center;
+}
+
+ul li {
+	display: inline;
+	font-size: 90px;
+}
+
+.twitter-color{
+	color: #68caff;
+}
+
+.imgur-color{
+	color: #69db9a;
+}
+
+#search-bar {
+    width: 700px;
+    text-align: center;
+    margin:0 auto;
+}
+
+#input-bar {
+    border-radius: 12px;
+	height: 55px;
+	width: 520px;
+    text-align: justify;
+	font-size: 30px;
+	font-family: 'Freckle Face', cursive;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#input-bar:focus {
+    outline: none;
+}
+
+#search-btn {
+    float: right;
+}
+
+#favorite {
+    width:400px;
+    height:auto;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.2);
+    margin:0 auto;
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#favo-title{
+    color: #68caff;
+}
+
+#f1, #f2, #f3 {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 24px;
+    color: #8e8e8e;
+}
+
+#f1:hover, #f2:hover, #f3:hover {
+    color: #1ECD97;
+}
+
+/*result page*/
+#savebtn {
+    float: right;
+}
+
+.content {
+    width:540px;
+    margin: 0 auto;
+}
+
+.twitter-tweet {
+    margin-left:20px;
+}
